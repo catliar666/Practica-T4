@@ -115,6 +115,7 @@ A la hora de asignar un envío a un conductor nos mostrará los envíos ya previ
 
 
 Una vez asignado un envio a un conductor se le informará al conductor vía telegram con un número de identificación del paquete ademas de su fecha de entrega.
+
 ![img](https://media.discordapp.net/attachments/1161335251021332530/1201194309534363698/Imagen_de_WhatsApp_2024-01-28_a_las_16.55.45_c9662b33.jpg?ex=65c8ee60&is=65b67960&hm=bfadb3f2e7048016af364ef8ca2c3fb3ba1bd74a1b23fac9d6e793ec92383750&=&format=webp&width=200&height=445)
 
 
