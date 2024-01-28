@@ -153,15 +153,16 @@ public class Paquetes {
                ", fechaEnvio='" + fechaEnvio + "\n";
     }
     public String pintaSeguimientoRegistro(){
-        return "┌▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀┐\n + " +
-               "│      Envío con número de seguimiento: " + numeroSeguimiento + "   │\n" +
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        return "┌▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀┐\n" +
+               "       Envío con número de seguimiento: " + numeroSeguimiento + "   \n" +
                "└▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄┘\n" +
                "     Estado: " + estado + "\n" +
                "     Destinatario: " + nombreDestinatario + "\n" +
                "     Dirección: " + direccionEntrega + "\n" +
                "     Localidad: " + localidad + "\n" +
                "     Provincia: " + provincia + "\n" +
-               "     Fecha de envío: " + fechaEnvio + "\n" +
+               "     Fecha de envío: " + fechaEnvio.format(formatter) + "\n" +
                "     Fecha de entrega estimada: " + fechaEntregaEstimada(diasEntrega) + "\n" +
                " ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ";
 

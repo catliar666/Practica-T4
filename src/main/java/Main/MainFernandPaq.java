@@ -109,7 +109,7 @@ public class MainFernandPaq {
     public static int pintaMenuUsuario(Usuarios usuarioLogueado) {
         System.out.printf("""
                 ┌▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀┐
-                     Bienvenido %6s. Siga sus envios en FernanPaaq
+                     Bienvenido %s. Siga sus envios en FernanPaaq
                 └▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄┘
                      █ 1. Seguir mis envíos
                      █ 2. Modificar mis datos de entrega para un envío
@@ -845,15 +845,18 @@ public class MainFernandPaq {
 
     public static int pintaMenuAdmin(Administrador jefe) {
         System.out.printf("""
-                Bienvenido %s. Administración FernanPaaq. Tiene %d envíos por asignar.
-                1. Registrar un nuevo envío.
-                2. Asignar un envío a un conductor.
-                3. Ver los datos de todos los usuarios registrados.
-                4. Ver los datos de todos los envíos.
-                5. Ver los datos de todos los conductores.
-                6. Modificar el perfil.
-                7. Cerrar sesión.
-                Elige una opción:""", jefe.getNombre(), jefe.incrementaContador());
+                ┌▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀┐
+                     Bienvenido %s. Administración FernanPaaq. Tiene %d envíos por asignar.    
+                └▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄┘
+                
+                       █ 1. Registrar un nuevo envío.
+                       █ 2. Asignar un envío a un conductor.
+                       █ 3. Ver los datos de todos los usuarios registrados.
+                       █ 4. Ver los datos de todos los envíos.
+                       █ 5. Ver los datos de todos los conductores.
+                       █ 6. Modificar el perfil.
+                       █ 7. Cerrar sesión.
+                       Elige una opción:""", jefe.getNombre(), jefe.incrementaContador());
         return Integer.parseInt(S.nextLine());
     }
 
@@ -1160,7 +1163,8 @@ public class MainFernandPaq {
         if (conductor.getConductor3() != null) {
             System.out.println(conductor.pintaPaquetesCon3());
         }
-        System.out.println("""
+        if (jefe.pintaPaqAdmin().equalsIgnoreCase("No hay paquetes para mostrar") && (conductor == null || conductor.pintaHistoricoConductor1().equals(" ")) &&
+            (conductor == null || conductor.pintaHistoricoConductor2().equals(" ")) && (conductor == null || conductor.pintaHistoricoConductor3().equals(" "))) System.out.println("""
                 ┌▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀┐
                 │  No hay paquetes para mostrar  │
                 └▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄┘

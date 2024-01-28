@@ -107,7 +107,7 @@ public class Administrador {
         String resultado = "";
         if (paq1 != null) resultado += incrementaContador() + " - " + paq1.pintaPaqueteinfo() + "\n";
         if (paq2 != null) resultado += incrementaContador() + " - " + paq2.pintaPaqueteinfo() + "\n";
-        if (resultado.equals("")) resultado += "No hay paquetes para asignar";
+        if (resultado.equals("")) resultado += "";
         return resultado;
     }
 }
