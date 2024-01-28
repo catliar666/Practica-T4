@@ -81,7 +81,7 @@ Ahora nos da la bienvenida este menú renovado, dandonos la opción de agregar u
 
 ![img](https://media.discordapp.net/attachments/1161335251021332530/1201166279906705508/image.png?ex=65c8d445&is=65b65f45&hm=4ba7d464f8f720519283363067f7f0513089eb912108051e065ea881b3bb7e4c&=&format=webp&quality=lossless&width=850&height=662)
 
-Al aceptar nos agrega un usuario normal y una cuenta de un conductor.
+Al aceptar nos agrega un usuario normal, una cuenta de un conductor y un paquete de prueba. La información de las cuentas añadidas aparecen por pantalla.
 
 #### 1.  Iniciar sesión
 
@@ -100,7 +100,7 @@ Este menú administrador nos da varias opciones como:
 
 ###### 1. Registrar un nuevo envío
 
-A la hora de registrar un nuevo envío nos pedirá una serie de datos que se guardarán en el sistema con una ID que identifica cada envío.
+A la hora de registrar un nuevo envío nos pedirá una serie de datos que se guardarán en el sistema con una ID que identifica cada envío. Esa ID es única e irrepetible mediante nuestro sistema automático de detección y creación de ID's añadida en esta nueva actualización de nuestro programa.
 
 ![img](https://media.discordapp.net/attachments/1161335251021332530/1201193726324772934/image.png?ex=65c8edd5&is=65b678d5&hm=284740b1de7b32675cd4fef88a6bf5bce42fff4b8d37b69216a03ef75d7c3add&=&format=webp&quality=lossless&width=585&height=445)
 
@@ -150,7 +150,7 @@ Esta opción nos permite salir de nuestro perfil logeado.
 
 Como usuario normal solo podemos hacer un seguimiento de nuestros envios, modificar nuestros datos como dirección, número de teléfono, etc. Tambien podemos ver nuestro perfil, nuestros datos, modificarlos y cerrar sesión.
 
-Cuando un paquete es asignado al usuario normal, a este se le avisará mediante un correo electrónico, indicando toda la información de su paquete. 
+Cuando un paquete es asignado al usuario normal mediante su correo electrónico, a este se le avisará mediante un email indicando toda la información de su nuevo paquete. 
 ![img](https://cdn.discordapp.com/attachments/1163537549126545470/1201236049528103054/Screenshot_20240128_194240_Gmail.jpg?ex=65c91540&is=65b6a040&hm=dae53317acf8d6ebbf9874f8dc9cf75f9d06742487f028e0b8ee53e8730e1577&)
 
 ![img](https://cdn.discordapp.com/attachments/1163537549126545470/1201236056939434004/Screenshot_20240128_194246_Gmail.jpg?ex=65c91541&is=65b6a041&hm=c63438f8bca89aebed3e86774b6113f7a8a2ed7cbccf31f398f68f03632eb3d5&)
@@ -158,6 +158,8 @@ Cuando un paquete es asignado al usuario normal, a este se le avisará mediante 
 ![img](https://cdn.discordapp.com/attachments/1163537549126545470/1201236065701339326/Screenshot_20240128_194255_Gmail.jpg?ex=65c91543&is=65b6a043&hm=0a4f57492e8d23ae2e10e6fe9e90e7d36a989621c2648c799a8435bd3740f93d&)
 
 También se le avisará mediante correo electrónico cuando el paquete cambie su estado de envío.
+
+![img](https://cdn.discordapp.com/attachments/1163537549126545470/1201240245946032291/image0.jpg?ex=65c91928&is=65b6a428&hm=4823904cf1bdb2f181eb8fb5eadcc40bdc34cfdf71a79377b85a434386921658&)
 
 ##### Conductor
 
