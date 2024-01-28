@@ -15,11 +15,11 @@
 
 
 ## Presentación
-¡Envíos rápidos y seguros en un solo lugar! Elige nuestro programa para una empresa de paquetería y haz que tus envíos lleguen a su destino sin problemas. Con tecnología de punta y un equipo de profesionales, confía en nosotros para hacer crecer tu negocio y satisfacer a tus clientes. ¡No busques más, somos la solución perfecta para tus necesidades de envío!
+¡Envíos rápidos y seguros en un solo lugar! Elige nuestro programa ahora actualizado, para una empresa de paquetería y haz que tus envíos lleguen a su destino sin problemas. Con tecnología de punta y un equipo de profesionales, confía en nosotros para hacer crecer tu negocio y satisfacer a tus clientes. ¡No busques más, somos la solución perfecta para tus necesidades de envío!
 
 ![](https://cdn.discordapp.com/attachments/1161335251021332530/1193527397618810880/logo_usado_2.jpeg?ex=65ad0a02&is=659a9502&hm=82129e80a59bd705cfcb509d7e35f11723af35bb9d8a48367ba33439b87c6f5b&)
 
-El programa de gestión de paquetería es altamente eficiente y completo. Ha sido diseñado por expertos en el campo, María y Ahmed, quienes han trabajado arduamente durante las vacaciones de Navidad para crear la solución más completa y efectiva para hacer frente a cualquier cantidad de demanda. Además, cuenta con una interfaz intuitiva y fácil de usar, lo que permite a los usuarios navegar por el sistema sin problemas y realizar tareas de manera rápida y sencilla.
+El programa de gestión de paquetería es altamente eficiente y completo. Ha sido diseñado por expertos en el campo, María y Ahmed, quienes han trabajado arduamente para dar una experiencia satisfactoria y para crear la solución más completa y efectiva en hacer frente a cualquier cantidad de demanda. Además, cuenta con una interfaz intuitiva, bonita y fácil de usar, lo que permite a los usuarios navegar por el sistema sin problemas y realizar tareas de manera rápida y sencilla.
 
 Una ventaja importante es que el programa está diseñado para adaptarse a las necesidades específicas de cada empresa de paquetería, lo que significa que puede ser personalizado para satisfacer las necesidades y requisitos únicos de cada cliente. En resumen, el programa es el más completo y efectivo en el mercado, y estamos seguros de que será una herramienta invaluable para cualquier empresa de paquetería que busque mejorar su eficiencia y rendimiento.
 
@@ -61,7 +61,7 @@ Nos dirigimos a la siguiente ruta:
 
 ###### 5. Ejecutamos
 
-Ya solo nos quedaría ejecutar el archivo:
+Ya solo nos quedaría ejecutar el archivo FernanPaaq.bat:
 
 ![img](https://media.discordapp.net/attachments/1161335251021332530/1193576365946048623/image.png?ex=65ad379d&is=659ac29d&hm=a33617fa3459b7c662d92e6a357407ded704df6ab3fa31557450c340e9ea2e48&=&format=webp&quality=lossless&width=198&height=223)
 
