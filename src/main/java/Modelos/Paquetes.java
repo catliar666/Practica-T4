@@ -14,7 +14,11 @@ public class Paquetes {
     private String provincia;
     private String estado = "en oficina de origen"; //Puede estar en almacen, en reparto o entregado
     private LocalDate fechaEnvio;
+<<<<<<< HEAD
     private int diasEntrega;
+=======
+    private int diasEntrega = 4;
+>>>>>>> 2dfb151a00eadc5b7aecf64a5b12bd61dd2d2066
     private int contPaquetes;
     //Constructor
 
@@ -111,7 +115,11 @@ public class Paquetes {
     }
     public String fechaEntregaEstimada(int dias){
         this.diasEntrega = dias;
+<<<<<<< HEAD
         LocalDate fechaEstimada = fechaEnvio.plusDays(diasEntrega);
+=======
+        LocalDate fechaEstimada = fechaEnvio.plusDays(dias);
+>>>>>>> 2dfb151a00eadc5b7aecf64a5b12bd61dd2d2066
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
       return fechaEstimada.format(formatter);
     }
@@ -153,16 +161,25 @@ public class Paquetes {
                ", fechaEnvio='" + fechaEnvio + "\n";
     }
     public String pintaSeguimientoRegistro(){
+<<<<<<< HEAD
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         return "┌▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀┐\n" +
                "       Envío con número de seguimiento: " + numeroSeguimiento + "   \n" +
+=======
+        return "┌▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀┐\n + " +
+               "│      Envío con número de seguimiento: " + numeroSeguimiento + "   │\n" +
+>>>>>>> 2dfb151a00eadc5b7aecf64a5b12bd61dd2d2066
                "└▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄┘\n" +
                "     Estado: " + estado + "\n" +
                "     Destinatario: " + nombreDestinatario + "\n" +
                "     Dirección: " + direccionEntrega + "\n" +
                "     Localidad: " + localidad + "\n" +
                "     Provincia: " + provincia + "\n" +
+<<<<<<< HEAD
                "     Fecha de envío: " + fechaEnvio.format(formatter) + "\n" +
+=======
+               "     Fecha de envío: " + fechaEnvio + "\n" +
+>>>>>>> 2dfb151a00eadc5b7aecf64a5b12bd61dd2d2066
                "     Fecha de entrega estimada: " + fechaEntregaEstimada(diasEntrega) + "\n" +
                " ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ";
 

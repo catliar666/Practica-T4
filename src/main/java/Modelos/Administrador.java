@@ -98,16 +98,27 @@ public class Administrador {
 
     public String pintaPaquetesParaAsignar() {
         String resultado = "";
+<<<<<<< HEAD
         if (paq1 != null) resultado += incrementaContador() + " - " + paq1.pintaParaAsignacion() + "\n";
         if (paq2 != null) resultado += incrementaContador() + " - " + paq2.pintaParaAsignacion() + "\n";
+=======
+        if (paq1 != null) resultado += incrementaContador() + paq1.pintaParaAsignacion() + "\n";
+        if (paq2 != null) resultado += incrementaContador() + paq2.pintaParaAsignacion() + "\n";
+>>>>>>> 2dfb151a00eadc5b7aecf64a5b12bd61dd2d2066
         if (resultado.equals("")) resultado += "No hay paquetes para asignar";
         return resultado;
     }
     public String pintaPaqAdmin(){
         String resultado = "";
+<<<<<<< HEAD
         if (paq1 != null) resultado += incrementaContador() + " - " + paq1.pintaPaqueteinfo() + "\n";
         if (paq2 != null) resultado += incrementaContador() + " - " + paq2.pintaPaqueteinfo() + "\n";
         if (resultado.equals("")) resultado += "";
+=======
+        if (paq1 != null) resultado += incrementaContador() + paq1.pintaPaqueteinfo() + "\n";
+        if (paq2 != null) resultado += incrementaContador() + paq2.pintaPaqueteinfo() + "\n";
+        if (resultado.equals("")) resultado += "No hay paquetes para asignar";
+>>>>>>> 2dfb151a00eadc5b7aecf64a5b12bd61dd2d2066
         return resultado;
     }
 }

@@ -139,9 +139,15 @@ public class Conductor {
         return null;
     }
     public boolean provinciaSi (String provinciaPaquete){
+<<<<<<< HEAD
         if (conductor != null && conductor.getProvincia().equalsIgnoreCase(provinciaPaquete)) return true;
         else if (conductor2 != null && conductor2.getProvincia().equalsIgnoreCase(provinciaPaquete)) return true;
         else if (conductor3 != null && conductor3.getProvincia().equalsIgnoreCase(provinciaPaquete)) return true;
+=======
+        if (conductor.getProvincia().equalsIgnoreCase(provinciaPaquete)) return true;
+        else if (conductor2.getProvincia().equalsIgnoreCase(provinciaPaquete)) return true;
+        else if (conductor3.getProvincia().equalsIgnoreCase(provinciaPaquete)) return true;
+>>>>>>> 2dfb151a00eadc5b7aecf64a5b12bd61dd2d2066
         return false;
     }
 
