@@ -104,7 +104,7 @@ A la hora de registrar un nuevo envío nos pedirá una serie de datos que se gua
 
 ![img](https://media.discordapp.net/attachments/1161335251021332530/1201193726324772934/image.png?ex=65c8edd5&is=65b678d5&hm=284740b1de7b32675cd4fef88a6bf5bce42fff4b8d37b69216a03ef75d7c3add&=&format=webp&quality=lossless&width=585&height=445)
 
-(A la hora de escribir el nombre de las provincias es obligatorio escribirlo correctamente, como en este caso Jaén con tilde en la "e")
+(A la hora de escribir el nombre de las provincias es obligatorio escribirlo correctamente, independientemente de las mayusculas, como en este caso Jaén con tilde en la "e")
 
 
 
@@ -149,6 +149,15 @@ Esta opción nos permite salir de nuestro perfil logeado.
 ![img](https://media.discordapp.net/attachments/1161335251021332530/1201191579856162897/image.png?ex=65c8ebd5&is=65b676d5&hm=7422ca23ca46a2c66c633d363ea84a95a80ffc2e6ff2e667c7626a02f7eddcdb&=&format=webp&quality=lossless&width=848&height=291)
 
 Como usuario normal solo podemos hacer un seguimiento de nuestros envios, modificar nuestros datos como dirección, número de teléfono, etc. Tambien podemos ver nuestro perfil, nuestros datos, modificarlos y cerrar sesión.
+
+Cuando un paquete es asignado al usuario normal, a este se le avisará mediante un correo electrónico, indicando toda la información de su paquete. 
+![img](https://cdn.discordapp.com/attachments/1163537549126545470/1201236049528103054/Screenshot_20240128_194240_Gmail.jpg?ex=65c91540&is=65b6a040&hm=dae53317acf8d6ebbf9874f8dc9cf75f9d06742487f028e0b8ee53e8730e1577&)
+
+![img](https://cdn.discordapp.com/attachments/1163537549126545470/1201236056939434004/Screenshot_20240128_194246_Gmail.jpg?ex=65c91541&is=65b6a041&hm=c63438f8bca89aebed3e86774b6113f7a8a2ed7cbccf31f398f68f03632eb3d5&)
+
+![img](https://cdn.discordapp.com/attachments/1163537549126545470/1201236065701339326/Screenshot_20240128_194255_Gmail.jpg?ex=65c91543&is=65b6a043&hm=0a4f57492e8d23ae2e10e6fe9e90e7d36a989621c2648c799a8435bd3740f93d&)
+
+También se le avisará mediante correo electrónico cuando el paquete cambie su estado de envío.
 
 ##### Conductor
 
