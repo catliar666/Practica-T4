@@ -44,19 +44,20 @@ Descargamos mediante el enlace a github el archivo “.zip”, creamos una carpe
 Para descargar el programa debemos seguir los siguientes pasos:
 
 ###### 1.  Descargar zip
-![img](https://media.discordapp.net/attachments/1161335251021332530/1193573791771668591/image.png?ex=65ad3537&is=659ac037&hm=f97aa4b431851fa788ac31125fa3de97356349c23ac2ee7d9923c3e2a1551a10&=&format=webp&quality=lossless&width=896&height=448)
+![img](https://media.discordapp.net/attachments/1161335251021332530/1201216870217433148/image.png?ex=65c90363&is=65b68e63&hm=877d9a91940299f834d3f652f2c4a67177870de71eef93ec436a96b14b7d57cc&=&format=webp&quality=lossless&width=897&height=445)
 
 ###### 2. Extraer todo
 ![img](https://media.discordapp.net/attachments/1161335251021332530/1193575172800774245/image.png?ex=65ad3680&is=659ac180&hm=549da32d7e38accfb1791fd1206265b8819f0b74bf8c07ccd1ee403f2844f7b5&=&format=webp&quality=lossless&width=680&height=267)
 
 ###### 3. Extraer
 
-![img](https://media.discordapp.net/attachments/1161335251021332530/1193575522404405329/image.png?ex=65ad36d4&is=659ac1d4&hm=30d9f7020fccb7c7347ef4a93d4bf3b246e39a4991cc465225eb7713c38622be&=&format=webp&quality=lossless&width=808&height=665)
+![img](https://media.discordapp.net/attachments/1161335251021332530/1201217096751775947/image.png?ex=65c90399&is=65b68e99&hm=740b545ec9b116fbc3dafc75e380acf886ef16f6a1b5fc301893ca274678cb52&=&format=webp&quality=lossless&width=605&height=445)
 
 ###### 4. Ruta
 
 Nos dirigimos a la siguiente ruta:
-"...\Practica-tema-3-maria-ahmed-main\out\artifacts\Practica3_jar"
+"...\Practica-T4\out\artifacts\EnviarCorreos_jar"
+
 
 ###### 5. Ejecutamos
 
@@ -115,7 +116,6 @@ A la hora de asignar un envío a un conductor nos mostrará los envíos ya previ
 
 
 Una vez asignado un envio a un conductor se le informará al conductor vía telegram con un número de identificación del paquete ademas de su fecha de entrega.
-
 ![img](https://media.discordapp.net/attachments/1161335251021332530/1201194309534363698/Imagen_de_WhatsApp_2024-01-28_a_las_16.55.45_c9662b33.jpg?ex=65c8ee60&is=65b67960&hm=bfadb3f2e7048016af364ef8ca2c3fb3ba1bd74a1b23fac9d6e793ec92383750&=&format=webp&width=200&height=445)
 
 
