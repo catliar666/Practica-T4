@@ -129,12 +129,12 @@ Con esta opción podemos ver los usuarios registrados en el sistema.
 
 Esta opción nos mostrará los datos de todos los envios efectuados o que se vayan a efectuar.
 
-![img]([https://media.discordapp.net/attachments/1161335251021332530/1201189554573541446/image.png?ex=65c8e9f2&is=65b674f2&hm=7a52d7890dfc1e87ca4a37fd569d99aebe948735e3b68d1388e8b4fb68aa2b27&=&format=webp&quality=lossless&width=1072&height=445](https://discord.com/channels/@me/1163537549126545470/1201429997718601828))
+![img]([[https://media.discordapp.net/attachments/1161335251021332530/1201189554573541446/image.png?ex=65c8e9f2&is=65b674f2&hm=7a52d7890dfc1e87ca4a37fd569d99aebe948735e3b68d1388e8b4fb68aa2b27&=&format=webp&quality=lossless&width=1072&height=445](https://discord.com/channels/@me/1163537549126545470/1201429997718601828)](https://cdn.discordapp.com/attachments/1163537549126545470/1201429997420810250/image.png?ex=65c9c9e0&is=65b754e0&hm=67e18501baffe526e8a1a44590e5329e78c3c76090ff7250fee01f145fd7e920&))
 ###### 5. Ver los datos de todos los conductores
 
 Aquí podemos ver los conductores registrados en el sistema.
 
-![img]([https://media.discordapp.net/attachments/1161335251021332530/1201190572669550602/image.png?ex=65c8eae5&is=65b675e5&hm=bc7aeb083a166c0aecd87bcd773076d34ba94506dc01dcf6adc27bdaa78bcaf9&=&format=webp&quality=lossless&width=741&height=316](https://discord.com/channels/@me/1163537549126545470/1201429606431985674))
+![img]([[https://media.discordapp.net/attachments/1161335251021332530/1201190572669550602/image.png?ex=65c8eae5&is=65b675e5&hm=bc7aeb083a166c0aecd87bcd773076d34ba94506dc01dcf6adc27bdaa78bcaf9&=&format=webp&quality=lossless&width=741&height=316](https://discord.com/channels/@me/1163537549126545470/1201429606431985674)](https://cdn.discordapp.com/attachments/1163537549126545470/1201429606197108797/image.png?ex=65c9c983&is=65b75483&hm=f59730d1d08fe7bdd97ce161e720f9d28d45149aaa6c8a6b05adc9a3a64400ed&))
 ###### 6. Modificar el perfil
 
 Aquí podemos cambiar los datos de nuestro perfil tanto clave como nombre.
@@ -198,7 +198,7 @@ Y al introducir el código de verficacion en el programa nos dejará crear una c
 
 En este apartado mediante el numero de referencia de nuestro envío podemos hacer un seguimiento y consultar nuestros datos:
 
-![img](https://media.discordapp.net/attachments/1161335251021332530/1201192807763808398/image.png?ex=65c8ecfa&is=65b677fa&hm=3bc6d80f7e8e718afa34bf050139f3d7b58c37c4824f641c4a2c9b570446fde0&=&format=webp&quality=lossless&width=928&height=445)
+![img]([https://media.discordapp.net/attachments/1161335251021332530/1201192807763808398/image.png?ex=65c8ecfa&is=65b677fa&hm=3bc6d80f7e8e718afa34bf050139f3d7b58c37c4824f641c4a2c9b570446fde0&=&format=webp&quality=lossless&width=928&height=445](https://cdn.discordapp.com/attachments/1163537549126545470/1201431214666563635/image.png?ex=65c9cb03&is=65b75603&hm=f6a891b0cf7c6af0a5bc6ee732b763a6efc3e53004cda1454893224e9529aba7&))
 
 
 #### 4. Salir
