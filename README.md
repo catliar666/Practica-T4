@@ -123,18 +123,18 @@ Una vez asignado un envio a un conductor se le informará al conductor vía tele
 
 Con esta opción podemos ver los usuarios registrados en el sistema.
 
-![img](https://media.discordapp.net/attachments/1161335251021332530/1201189142197968946/image.png?ex=65c8e990&is=65b67490&hm=2282d0c9a4cf6873fcdd1c5cadddbac0b2409fca6acd091c75c76887ef38388c&=&format=webp&quality=lossless&width=961&height=335)
+![img]([https://media.discordapp.net/attachments/1161335251021332530/1201189142197968946/image.png?ex=65c8e990&is=65b67490&hm=2282d0c9a4cf6873fcdd1c5cadddbac0b2409fca6acd091c75c76887ef38388c&=&format=webp&quality=lossless&width=961&height=335](https://discord.com/channels/@me/1163537549126545470/1201431214964346980))
 
 ###### 4. Ver los datos de todos los envíos
 
 Esta opción nos mostrará los datos de todos los envios efectuados o que se vayan a efectuar.
 
-![img](https://media.discordapp.net/attachments/1161335251021332530/1201189554573541446/image.png?ex=65c8e9f2&is=65b674f2&hm=7a52d7890dfc1e87ca4a37fd569d99aebe948735e3b68d1388e8b4fb68aa2b27&=&format=webp&quality=lossless&width=1072&height=445)
+![img]([https://media.discordapp.net/attachments/1161335251021332530/1201189554573541446/image.png?ex=65c8e9f2&is=65b674f2&hm=7a52d7890dfc1e87ca4a37fd569d99aebe948735e3b68d1388e8b4fb68aa2b27&=&format=webp&quality=lossless&width=1072&height=445](https://discord.com/channels/@me/1163537549126545470/1201429997718601828))
 ###### 5. Ver los datos de todos los conductores
 
 Aquí podemos ver los conductores registrados en el sistema.
 
-![img](https://media.discordapp.net/attachments/1161335251021332530/1201190572669550602/image.png?ex=65c8eae5&is=65b675e5&hm=bc7aeb083a166c0aecd87bcd773076d34ba94506dc01dcf6adc27bdaa78bcaf9&=&format=webp&quality=lossless&width=741&height=316)
+![img]([https://media.discordapp.net/attachments/1161335251021332530/1201190572669550602/image.png?ex=65c8eae5&is=65b675e5&hm=bc7aeb083a166c0aecd87bcd773076d34ba94506dc01dcf6adc27bdaa78bcaf9&=&format=webp&quality=lossless&width=741&height=316](https://discord.com/channels/@me/1163537549126545470/1201429606431985674))
 ###### 6. Modificar el perfil
 
 Aquí podemos cambiar los datos de nuestro perfil tanto clave como nombre.
