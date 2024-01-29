@@ -109,11 +109,7 @@ public class MainFernandPaq {
     public static int pintaMenuUsuario(Usuarios usuarioLogueado) {
         System.out.printf("""
                 ┌▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀┐
-<<<<<<< HEAD
                      Bienvenido %s. Siga sus envios en FernanPaaq
-=======
-                     Bienvenido %6s. Siga sus envios en FernanPaaq
->>>>>>> 2dfb151a00eadc5b7aecf64a5b12bd61dd2d2066
                 └▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄┘
                      █ 1. Seguir mis envíos
                      █ 2. Modificar mis datos de entrega para un envío
@@ -849,9 +845,8 @@ public class MainFernandPaq {
 
     public static int pintaMenuAdmin(Administrador jefe) {
         System.out.printf("""
-<<<<<<< HEAD
                 ┌▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀┐
-                     Bienvenido %s. Administración FernanPaaq. Tiene %d envíos por asignar.    
+                     Bienvenido %s. Administración FernanPaaq. Tiene %d envíos por asignar.
                 └▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄┘
                 
                        █ 1. Registrar un nuevo envío.
@@ -862,17 +857,6 @@ public class MainFernandPaq {
                        █ 6. Modificar el perfil.
                        █ 7. Cerrar sesión.
                        Elige una opción:""", jefe.getNombre(), jefe.incrementaContador());
-=======
-                Bienvenido %s. Administración FernanPaaq. Tiene %d envíos por asignar.
-                1. Registrar un nuevo envío.
-                2. Asignar un envío a un conductor.
-                3. Ver los datos de todos los usuarios registrados.
-                4. Ver los datos de todos los envíos.
-                5. Ver los datos de todos los conductores.
-                6. Modificar el perfil.
-                7. Cerrar sesión.
-                Elige una opción:""", jefe.getNombre(), jefe.incrementaContador());
->>>>>>> 2dfb151a00eadc5b7aecf64a5b12bd61dd2d2066
         return Integer.parseInt(S.nextLine());
     }
 
@@ -944,23 +928,14 @@ public class MainFernandPaq {
             if (destinatario.comprobarEmail(emailTeclado)) {
                 String nombre = nuevoNombre(), direccion = nuevaDireccion(), localidad = nuevaLocalidad(), provincia = nuevaProvi();
                 jefe.addPaquete(emailTeclado, nombre, direccion, localidad, provincia);
-<<<<<<< HEAD
-=======
-                compruebaNumSeguimiento();
-                jefe.cambiaInfo();
-                insertaPaqueteCuentas();
->>>>>>> 2dfb151a00eadc5b7aecf64a5b12bd61dd2d2066
                 System.out.println("""
                         ┌▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀┐
                         │   Procesando...  │
                         └▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄┘
                         """);
-<<<<<<< HEAD
                 compruebaNumSeguimiento();
                 jefe.cambiaInfo();
                 insertaPaqueteCuentas();
-=======
->>>>>>> 2dfb151a00eadc5b7aecf64a5b12bd61dd2d2066
                 System.out.println("Paquete creado correctamente");
                 Utils.pulsaParaContinuar();
                 Utils.limpiarPantalla();
@@ -991,11 +966,7 @@ public class MainFernandPaq {
             if (usuarioGeneral != null) {
                 Mensajes.enviarMensaje(usuarioGeneral.getEmail(), "FernanPaaq te avisa",
                         PlantillaAsignaCorreo.generaPlantillaCambiaEstado(usuarioGeneral.getNombre(), paqueteModificar.getNombreDestinatario(), paqueteModificar.getNumeroSeguimiento(),
-<<<<<<< HEAD
                                 paqueteModificar.fechaEntregaEstimada(4), paqueteModificar.getEstado(), paqueteModificar.getDireccionEntrega(),
-=======
-                                paqueteModificar.fechaEstimadaCorreo(), paqueteModificar.getEstado(), paqueteModificar.getDireccionEntrega(),
->>>>>>> 2dfb151a00eadc5b7aecf64a5b12bd61dd2d2066
                                 paqueteModificar.getLocalidad(), paqueteModificar.getProvincia()));
             }
             if (conductor.provinciaSi(jefe.getPaq1().getProvincia())) {
@@ -1026,11 +997,7 @@ public class MainFernandPaq {
                 System.out.println("Procesando aviso al conductor y al destinatario");
                 Mensajes.enviarMensaje(usuarioGeneral.getEmail(), "FernanPaaq te avisa",
                         PlantillaAsignaCorreo.generaPlantillaCambiaEstado(usuarioGeneral.getNombre(), paqueteModificar.getNombreDestinatario(), paqueteModificar.getNumeroSeguimiento(),
-<<<<<<< HEAD
                                 paqueteModificar.fechaEntregaEstimada(4), paqueteModificar.getEstado(), paqueteModificar.getDireccionEntrega(),
-=======
-                                paqueteModificar.fechaEstimadaCorreo(), paqueteModificar.getEstado(), paqueteModificar.getDireccionEntrega(),
->>>>>>> 2dfb151a00eadc5b7aecf64a5b12bd61dd2d2066
                                 paqueteModificar.getLocalidad(), paqueteModificar.getProvincia()));
             }
             if (conductor.provinciaSi(jefe.getPaq2().getProvincia())) {
@@ -1138,11 +1105,7 @@ public class MainFernandPaq {
                     System.out.println("Procesando aviso al conductor...");
                     try {
                         MensajeTelegram.enviaMensajeTelegram(MensajeTelegram.mensajePredeterminado(paqueteModificar.getNumeroSeguimiento(),
-<<<<<<< HEAD
                                 paqueteModificar.getEstado(), userLogueadoConductor.getNombre(), paqueteModificar.fechaEntregaEstimada(diasEntrega)));
-=======
-                                paqueteModificar.getEstado(), userLogueadoConductor.getNombre(), paqueteModificar.fechaEstimadaCorreo()));
->>>>>>> 2dfb151a00eadc5b7aecf64a5b12bd61dd2d2066
                     } catch (IOException e) {
                         System.out.println("""
                                 ┌▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀┐
@@ -1200,12 +1163,8 @@ public class MainFernandPaq {
         if (conductor.getConductor3() != null) {
             System.out.println(conductor.pintaPaquetesCon3());
         }
-<<<<<<< HEAD
         if (jefe.pintaPaqAdmin().equalsIgnoreCase("No hay paquetes para mostrar") && (conductor == null || conductor.pintaHistoricoConductor1().equals(" ")) &&
             (conductor == null || conductor.pintaHistoricoConductor2().equals(" ")) && (conductor == null || conductor.pintaHistoricoConductor3().equals(" "))) System.out.println("""
-=======
-        System.out.println("""
->>>>>>> 2dfb151a00eadc5b7aecf64a5b12bd61dd2d2066
                 ┌▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀┐
                 │  No hay paquetes para mostrar  │
                 └▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄┘
@@ -1231,7 +1190,7 @@ public class MainFernandPaq {
                 │     Información sobre los conductores     │
                 └▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄┘
                 """);
-        System.out.println("        " + conductor.pintaConductores());
+        System.out.println(conductor.pintaConductores());
         System.out.println(" ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ");
         Utils.pulsaParaContinuar();
         Utils.limpiarPantalla();
